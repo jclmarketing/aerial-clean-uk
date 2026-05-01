@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" preserveAspectRatio="xMidYMid slice">
+  <defs><linearGradient id="sky-rf" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#5fb0d8"/><stop offset="100%" stop-color="#1d3a5f"/></linearGradient></defs>
+  <rect width="600" height="450" fill="url(#sky-rf)"/>
+  <!-- pitched roof -->
+  <polygon points="0,250 300,80 600,250 600,450 0,450" fill="#3a3028"/>
+  <!-- tiles pattern -->
+  <g opacity="0.45">
+    <line x1="0" y1="290" x2="600" y2="290" stroke="#1a1410" stroke-width="2"/>
+    <line x1="0" y1="330" x2="600" y2="330" stroke="#1a1410" stroke-width="2"/>
+    <line x1="0" y1="370" x2="600" y2="370" stroke="#1a1410" stroke-width="2"/>
+    <line x1="0" y1="410" x2="600" y2="410" stroke="#1a1410" stroke-width="2"/>
+  </g>
+  <!-- moss patches -->
+  <g opacity="0.6" fill="#5a7a3a">
+    <ellipse cx="100" cy="320" rx="40" ry="15"/>
+    <ellipse cx="500" cy="350" rx="50" ry="18"/>
+    <ellipse cx="180" cy="400" rx="30" ry="10"/>
+  </g>
+  <!-- clean strip -->
+  <polygon points="260,250 340,250 340,450 260,450" fill="#5a4838"/>
+  <!-- drone above -->
+  <g transform="translate(300, 180)">
+    <rect x="-30" y="-3" width="60" height="6" fill="#0a1628" rx="2"/>
+    <rect x="-3" y="-30" width="6" height="60" fill="#0a1628" rx="2"/>
+    <ellipse cx="0" cy="0" rx="18" ry="12" fill="#0a1628"/>
+    <ellipse cx="0" cy="-2" rx="11" ry="6" fill="#5fe6ff"/>
+    <g opacity="0.5"><ellipse cx="-30" cy="-30" rx="18" ry="2.5" fill="white"/><ellipse cx="30" cy="-30" rx="18" ry="2.5" fill="white"/><ellipse cx="-30" cy="30" rx="18" ry="2.5" fill="white"/><ellipse cx="30" cy="30" rx="18" ry="2.5" fill="white"/></g>
+    <path d="M -10 12 L -25 70 L 25 70 L 10 12 Z" fill="white" opacity="0.4"/>
+  </g>
+</svg>
